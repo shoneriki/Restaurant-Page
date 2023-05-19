@@ -22,9 +22,15 @@ body,html {
   width: 88%;
 }
 
-.welcome-text-container {
+#welcome-text-container {
   position: absolute;
-  top: 40%;
+  top: 32%;
+}
+
+#welcome-text-container > h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
