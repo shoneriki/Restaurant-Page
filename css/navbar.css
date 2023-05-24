@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-nav {
+.navbar {
   width: 100%;
 }
 
 nav > ul {
+  display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  justify-content: flex-end;
   gap: 16px;
   background-color: transparent;
   position: sticky;
@@ -16,8 +16,13 @@ nav > ul {
   z-index: 1;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav > ul > li {
   margin-right: 3%;
+  list-style: none;
 }
 
 .nav> ul> li:last-child {
