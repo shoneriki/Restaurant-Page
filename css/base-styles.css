@@ -37,6 +37,20 @@
 .ml-3 { margin-left: .75rem; }
 .ml-4 { margin-left: 1rem; }
 
+/* text alignments*/
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
 
 body,html {
   margin: 0;
