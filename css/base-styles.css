@@ -50,6 +50,26 @@
   text-align: right;
 }
 
+/* typical flex classes*/
+.flex-d-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-d-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.j-c-center {
+  justify-content: center;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+
 
 
 body,html {
@@ -69,19 +89,10 @@ body,html {
   margin: 0;
 }
 
-.no-decoration {
+.list-no-decoration {
   list-style: none;
 }
 
-.flex-d-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-d-column {
-  display: flex;
-  flex-direction: column;
-}
 .w-100 {
   width: 100%;
 }
