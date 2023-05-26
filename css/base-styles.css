@@ -21,6 +21,10 @@
   margin: 0;
 }
 
+.m-0auto {
+  margin: 0 auto;
+}
+
 .mt-1 { margin-top: 0.25rem; }
 .mt-2 { margin-top: 0.5rem; }
 .mt-3 { margin-top: .75rem; }
