@@ -24,3 +24,13 @@
   height: 75%;
   width: 84%;
 }
+
+.arrow-circle-icon {
+  border: 1px solid orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7%;
+  width: 4%;
+}
