@@ -95,7 +95,7 @@ body,html {
 }
 
 .text-med {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .text-lg {
@@ -105,6 +105,10 @@ body,html {
 
 .text-bold {
   font-weight: 700;
+}
+
+.text-orange {
+  color: orange
 }
 /* typical flex classes*/
 .flex-d-row {
