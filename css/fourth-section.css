@@ -13,7 +13,10 @@
   padding: 16% 0;
 }
 
+#video-container {
+  display: flex;
+}
+
 .video-img {
   background-image: url("../assets/images/brooke-lark-image2.jpg");
-  width: 100%;
 }
