@@ -31,12 +31,14 @@ body,html {
 
 .page-span {
   color: orange;
+  margin-bottom: 1.5rem;
 }
 
 .heading {
   font-family: "Abril Fatface", sans-serif;
   font-size: 4rem;
-  margin: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 /* margins */
@@ -366,6 +368,10 @@ a {
   width: 48%;
   position: absolute;
   right: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 #section2-text-container > .heading {
@@ -393,6 +399,7 @@ p {
   padding: 0;
   font-size: 1em;
   color: white;
+  margin-top: 1.5rem;
 }
 
 #discover-menu-btn-text {
@@ -505,6 +512,10 @@ p {
 
 }
 
+.top-half {
+  width: 54%;
+}
+
 #phone {
   border: 1px solid orange;
   border-radius: 50%;
@@ -516,8 +527,10 @@ p {
 }
 
 #video-container {
-    display: flex;
-    height: 100%;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  width: 64%;
 }
 
 .video-and-icons {
@@ -530,7 +543,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 88%;
+  width: 100%;
+  margin: 0 4rem;
 }
 
 .arrow-circle-icon {
@@ -539,7 +553,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10%;
-  width: 4%;
+  padding: 2rem;
 }
 /* end of section 4 */
