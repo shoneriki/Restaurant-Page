@@ -32,6 +32,7 @@ body,html {
 .page-span {
   color: orange;
   margin-bottom: 1.5rem;
+  font-weight: 700;
 }
 
 .heading {
@@ -450,12 +451,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-
-#order-online-now-span {
-  margin: 1rem 0;
-  color: orange;
-  margin-bottom: 1.5rem;
 }
 
 #section3-heading {
