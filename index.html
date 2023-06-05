@@ -5,54 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurant</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base-styles.css">
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/second-section.css">
-  <link rel="stylesheet" href="./css/third-section.css">
-  <link rel="stylesheet" href="./css/fourth-section.css">
   <script src="https://kit.fontawesome.com/8dcd3a832c.js" crossorigin="anonymous" defer></script>
   <!–[if lt IE 9]>
     <script src=”https://www.noupe.comdist/html5shiv.js” defer> </script>
   <![endif]–>
 </head>
 <body>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="/">Home </a>
+      </li>
+      <li>
+        <a href="#section2">About Us</a>
+      </li>
+      <li>
+        <a href="#section3">Menu</a>
+      </li>
+      <li>
+        <a href="#section4">Order Now</a>
+      </li>
+      <li>
+        <a href="/">Blog</a>
+      </li>
+      <li>
+        <a href="/">Location</a>
+      </li>
+      <li>
+        <a href="/" alt="shopping-cart-link">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </li>
+      <li>
+        <a href="/" alt="search-link">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
   <section id="section1">
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="/">Home </a>
-        </li>
-        <li>
-          <a href="#section2">About Us</a>
-        </li>
-        <li>
-          <a href="#section3">Menu</a>
-        </li>
-        <li>
-          <a href="#section4">Order Now</a>
-        </li>
-        <li>
-          <a href="/">Blog</a>
-        </li>
-        <li>
-          <a href="/">Location</a>
-        </li>
-        <li>
-          <a href="/" alt="shopping-cart-link">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </a>
-        </li>
-        <li>
-          <a href="/" alt="search-link">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
     <section class="inner-container">
       <section id="welcome-text-container">
         <h1 class="heading">
@@ -149,14 +142,15 @@
   </section>
   <section id="section4">
     <section id="section4-inner-container" class="flex-d-column ai-c inner-container">
-      <section name="top-half" class="h-50 w-68 flex-d-column jc-c ai-c">
-        <span class="page-span text-center">
-          Book Table
-        </span>
-
-        <h1 class="text-center text-lg">Opening Hours</h1>
-        <section name="mid-container" class="h-100 flex-d-column ai-c jc-sb mid-container">
-          <div name="phone container" id="phone" class="flex-d-column ai-c jc-c h-25 w-25">
+      <section name="top-half" class="w-68 flex-d-column jc-c ai-c">
+        <section class="mb-4 text-center">
+          <span class="page-span text-center">
+            Book Table
+          </span>
+          <h1 class="heading text-center text-lg">Opening Hours</h1>
+        </section>
+        <section name="mid-container" class="h-100 mb-4 flex-d-column ai-c jc-sb mid-container">
+          <div name="phone container" id="phone" class="flex-d-column ai-c jc-c">
             <i class="fa-solid fa-phone fa-2x" style="color: orange;"></i>
           </div>
           <span id="phone-call">Call Now</span>
@@ -190,7 +184,7 @@
           </div>
           <div name="video-and-icons" class="flex-d-row ai-c jc-c video-and-icons">
             <div name="video-image" class="flex-d-row ai-c jc-c video-img">
-              <section name="play-icon-container" class="flex-d-column ai-c jc-sb h-25 w-25">
+              <section name="play-icon-container" class="flex-d-column ai-c jc-sb">
                 <div name="play-icon" class="flex-d-column ai-c icon">
                   <i class="fa-solid fa-play fa-4x" style="color: orange"></i>
                 </div>
