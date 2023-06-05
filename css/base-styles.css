@@ -17,7 +17,6 @@
 
   --border-black: 1px solid black;
   --border-orange: 1px solid orange;
-  --orange: orange;
 }
 
 
@@ -611,7 +610,7 @@ p {
 #phone-number {
   font-weight: 700;
   color: orange;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 #section4-top-half-threeThirds-times-section {
@@ -624,7 +623,7 @@ p {
 
 .times-display {
   font-size: 2rem;
-  font-weight: 700'
+  font-weight: 700;
 }
 
 #section4-bottom-half {
