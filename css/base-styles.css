@@ -435,6 +435,13 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  margin: 0 5rem;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #section3-text-container {
@@ -442,7 +449,17 @@ p {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
 
+#order-online-now-span {
+  margin: 1rem 0;
+  color: orange;
+  margin-bottom: 1.5rem;
+}
+
+#section3-heading {
+  margin: 1rem 0;
 }
 
 #section3-nav {
@@ -450,6 +467,7 @@ p {
   gap: 8px;
   display: flex;
   justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
 #section3-ul {
@@ -474,10 +492,39 @@ p {
   border-bottom: var(--border-orange);
 }
 
+#section3-image-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: centerl;
+}
+
+#breakfast-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#breakfast-carousel > img {
+  width: 20%;
+}
+
+#slider-pagination {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .arrow > i {
   color: #FFBF00;
 }
 
+#dot-container {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .dot {
   height: 15px;
