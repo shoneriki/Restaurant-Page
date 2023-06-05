@@ -237,6 +237,52 @@ body,html {
   padding: 16% 0;
 }
 
+/* navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 16px;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav > ul > li {
+  margin-right: 3%;
+  list-style: none;
+}
+
+.nav> ul> li:last-child {
+  margin-right: 0;
+}
+
+.nav > ul > li:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 599px) {
+
+}
+
+/* end of navbar */
+
 
 /* section 1 */
 #section1 {
@@ -299,6 +345,8 @@ body,html {
     0px -4px 10px rgba(255,255,255,0.3);
 }
 
+/* end of section 1 */
+
 /* section 2 */
 #section2 {
   background-image: url(../assets/images/lily-banse-image1.jpg);
@@ -356,3 +404,5 @@ p {
   justify-content: center;
   border-radius: 0 8px 8px 0;
 }
+
+/* end of section 2 */
