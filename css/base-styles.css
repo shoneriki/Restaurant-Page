@@ -239,9 +239,9 @@ body,html {
 }
 
 .icon {
-    border: 1px solid orange;
-    border-radius: 50%;
-    padding: 60px 60px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 60px 60px;
 }
 
 /* navbar */
@@ -573,7 +573,6 @@ p {
 }
 
 #section4-top-half > #section4-top-half-oneThirds-book-section {
-  margin-bottom: 2.5rem;
   text-align: center;
 }
 
@@ -587,11 +586,12 @@ p {
 #section4-top-half-oneThirds-book-section > h1 {
   text-align: center;
   font-size: 3rem;
+  margin: 1rem 0 2rem 0;
 }
 
 #section4-top-half-twoThirds-phone-section {
   height: 100%;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -622,25 +622,61 @@ p {
   width: 88%;
 }
 
-#video-container {
-  display: flex;
-  height: 100%;
-  margin: 0 auto;
-  width: 64%;
+.times-display {
+  font-size: 2rem;
+  font-weight: 700'
 }
 
-.video-and-icons {
+#section4-bottom-half {
+  height: 50%;
+  width: 92%;
+}
+
+#video-container-w-arrow-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
 
-.video-img {
+#video-img-and-play-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+}
+
+#video-img {
   background-image: url(../assets/images/brooke-lark-image2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
   margin: 0 4rem;
+}
+
+#play-icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#play-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 3.75rem;
 }
 
 .arrow-circle-icon {
