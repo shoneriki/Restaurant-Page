@@ -115,7 +115,7 @@ body,html {
 }
 
 .text-orange {
-  color: orange
+  color: orange;
 }
 /* typical flex classes*/
 .flex-d-row {
@@ -555,22 +555,76 @@ p {
   font-weight: 700;
 }
 
-.mid-container {
+#section4-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  margin: 0 5rem;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.top-half {
+
+#section4-top-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 54%;
 }
 
-#phone {
+#section4-top-half > #section4-top-half-oneThirds-book-section {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+#section4-top-half-oneThirds-book-section > span {
+  color: orange;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+
+#section4-top-half-oneThirds-book-section > h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#section4-top-half-twoThirds-phone-section {
+  height: 100%;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+#phone-container {
   border: 1px solid orange;
   border-radius: 50%;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.times-container {
-  width: 100%;
+#phone-number {
+  font-weight: 700;
+  color: orange;
+  font-size: 1.4rem;
+}
+
+#section4-top-half-threeThirds-times-section {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 88%;
 }
 
 #video-container {
