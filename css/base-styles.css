@@ -452,7 +452,7 @@ body,html {
 }
 
 #dot-container {
-  width: 10%;
+  width: 7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
