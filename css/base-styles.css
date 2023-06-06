@@ -31,11 +31,11 @@
 
   --font-size-xsmall-btn: .45rem;
 
-  --font-size-xsmall: .75rem;
+  --font-size-xsmall: .5rem;
   --font-size-small: .75rem;
   --font-size-medium: 1rem;
   --font-size-large: 1rem;
-  --container-width-xsmall: 90%;
+  --container-width-xsmall: 100%;
   --container-width-small: 100%;
   --container-width-medium: 60%;
   --container-width-large: 50%;
@@ -227,8 +227,9 @@ body,html {
   height: 100vh;
 }
 
-.inner-container {
+#section1 > .inner-container {
   margin: 0 5rem;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -335,6 +336,15 @@ body,html {
   height: 100vh;
 }
 
+#section2 > .inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+
+}
+
 #section2-shift{
   display: flex;
   flex-direction: column;
@@ -348,7 +358,6 @@ body,html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 2rem 0;
   overflow-y: auto;
 }
 
@@ -402,14 +411,18 @@ body,html {
     font-size: var(--font-size-xsmall-btn);
   }
   #inner-btn {
-    width:1rem;
+    width:20%;
   }
   #section2 > .inner-container {
     margin: 0;
+    height: 100%;
     width: var(--container-width-xsmall);
   }
+
   #section2-shift {
     align-items: center;
+    justify-content: center;
+    height: 100%;
   }
   #section2-text-container > .heading {
     font-size: var(--heading-size-xsmall);
