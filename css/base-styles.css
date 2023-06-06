@@ -271,6 +271,7 @@ body,html {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
+  margin: 1rem 1rem 0 0;
 }
 
 .hamburger-menu div {
@@ -380,7 +381,7 @@ body,html {
 #first-form {
   width: 52%;
   display: flex;
-  justify-content: space-between/
+  justify-content: space-between;
 }
 
 
@@ -393,13 +394,18 @@ body,html {
 }
 
 #location-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   right: 4px;
   border: none;
   background-color: orange;
   padding: .5rem 1rem;
   border-radius: 0 8px 8px 0;
+  white-space: nowrap;
 }
+
 #welcome-likes {
   position: relative;
   top: 3rem;
