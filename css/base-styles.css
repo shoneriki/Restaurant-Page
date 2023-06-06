@@ -522,7 +522,7 @@ body,html {
 }
 
 #section3-ul {
-  width: 50%;
+  width: 100%;
   text-align: center;
   gap: .5rem;
   display: flex;
@@ -598,6 +598,18 @@ body,html {
   background-color: #CC5500;
   height: 12px;
   width: 12px;
+}
+
+@media (max-width: 375px) {
+  #section3-text-container > .heading {
+    font-size: var(--heading-size-xsmall);
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  #section3-text-container > .heading {
+    font-size: var(--heading-size-small);
+  }
 }
 /* end of section 3 */
 
