@@ -239,7 +239,7 @@ p {
   flex-grow: 1;
 }
 
-.fa-solid.fa-magnifying-glass {
+#magnifying-glass-search-input {
   position: absolute;
   top: 50%;
   left: 10px;
