@@ -4,6 +4,7 @@ const navList = document.querySelectorAll('.nav-links li');
 
 function toggleNav() {
   navLinks.classList.toggle("nav-active");
+  hamburgerMenu.classList.toggle("toggle");
 }
 
 hamburgerMenu.addEventListener("click", toggleNav);

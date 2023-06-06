@@ -173,6 +173,18 @@ body,html {
   .hamburger-menu {
     display: flex;
   }
+
+  .hamburger-menu.toggle div:nth-child(1) {
+    transform: rotate(-45deg) translate(-8px, 7px);
+  }
+
+  .hamburger-menu.toggle div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.toggle div:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -7px);
+  }
 }
 
 
@@ -241,7 +253,7 @@ body,html {
   top: 3rem;
   display: flex;
   gap: 4rem;
-  z-index: 100;
+  z-index: 2;
   color: orange;
      text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
     0px -4px 10px rgba(255,255,255,0.3);
