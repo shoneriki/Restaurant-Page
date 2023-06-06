@@ -17,6 +17,10 @@
 
   --border-black: 1px solid black;
   --border-orange: 1px solid orange;
+
+  --font-base-size: 1rem;
+  --font-scale-factor: 5vw;
+  --font-max-size: 5rem;
 }
 
 
@@ -36,10 +40,14 @@ body,html {
 
 .heading {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 4rem;
+  font-size: clamp(var(--font-base-size), calc(var(--font-base-size) + var(--font-scale-factor)), var(--font-max-size));
   margin-bottom: 1.5rem;
   text-align: left;
   color: #0F0D25;
+}
+
+p {
+  font-size: clamp(calc(var(--font-base-size) / 1.5), calc((var(--font-base-size) / 1.5) + var(--font-scale-factor)), calc(var(--font-max-size) / 1.5));
 }
 
 .icon {
@@ -143,6 +151,8 @@ body,html {
   text-align: center;
 }
 
+
+
 @media (max-width: 768px) {
   .nav-links {
     position: fixed;
@@ -208,12 +218,8 @@ body,html {
   justify-content: center;
 }
 
-#welcome-text-container {
-}
-
-#welcome-text-container > h1 {
-  font-size: 5rem;
-   text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
+#welcome-text-container > .heading {
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
     0px -4px 10px rgba(255,255,255,0.3);
   margin: 0;
   padding: 0;
@@ -221,14 +227,15 @@ body,html {
 }
 
 #first-form {
-  width: 52%;
+  width: 50vw;
+  max-width: 560px;
   display: flex;
   justify-content: space-between;
 }
 
 .input-icon-wrapper {
   position: relative;
-  width: 80%;
+  width: calc(100% - 6rem);
   flex-grow: 1;
 }
 
@@ -281,8 +288,13 @@ body,html {
 }
 
 @media (max-width: 768px) {
-  #welcome-text-container > h1 {
-    font-size: 3rem;
+  #welcome-text-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #welcome-text-container > .heading {
+    text-align: center;
   }
 }
 
