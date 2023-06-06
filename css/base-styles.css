@@ -255,15 +255,18 @@ body,html {
 
 #location-btn {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  position: relative;
-  right: 4px;
   border: none;
   background-color: orange;
+  color: white;
   padding: .5rem 1rem;
   border-radius: 0 8px 8px 0;
   white-space: nowrap;
+}
+
+#location-btn > span {
+  margin-right: .5rem;
 }
 
 #welcome-likes {
