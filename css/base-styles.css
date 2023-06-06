@@ -264,7 +264,7 @@ body,html {
 nav > ul {
   display: flex;
   justify-content: flex-end;
-  margin-right: 7rem;
+  margin: 1rem 7rem 0 0;
   padding: 0;
   list-style: none;
   gap: 4rem;
@@ -293,6 +293,23 @@ a:hover {
 
 .navbar  > ul > li:hover {
   cursor: pointer;
+}
+
+#cart-icon {
+  position: relative;
+}
+
+.item-quantity {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: white;
+  color: orange;
+  border-radius: 50%;
+  padding: 2px 4px;
+  min-width: 8px;
+  font-size: 8px;
+  text-align: center;
 }
 
 @media (max-width: 599px) {
@@ -333,7 +350,6 @@ a:hover {
 }
 
 #first-form {
-  position: absolute;
   width: 52%;
 }
 
