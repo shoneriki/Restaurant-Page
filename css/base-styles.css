@@ -27,7 +27,7 @@
   --heading-size-xsmall: 1.5rem;
   --heading-size-small: 2rem;
   --heading-size-medium: 2.5rem;
-  --heading-size-large: 4rem;
+  --heading-size-large: 3.5rem;
 
   --font-size-xsmall-btn: .45rem;
 
@@ -246,8 +246,8 @@ body,html {
 }
 
 #first-form {
-  width: 50vw;
-  max-width: 560px;
+  width: 46vw;
+  max-width: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -504,8 +504,13 @@ body,html {
   justify-content: space-between;
 }
 
-#section3-heading {
-  margin: 1rem 0;
+#section3-text-container > .page-span {
+  margin-bottom: 0;
+}
+
+#section3-text-container > .heading {
+  font-size: var(--heading-size-large);
+  margin: 0 0 2rem 0;
 }
 
 #section3-nav {
@@ -535,7 +540,7 @@ body,html {
 }
 
 #section3-ul > .active {
-  color: var(--orange);
+  color: orange;
   border-bottom: var(--border-orange);
 }
 
@@ -571,11 +576,12 @@ body,html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 6px;
+  width: 6px;
   margin: 0 2px;
   background-color: #FFBF00;
   border-radius: 50%;
@@ -588,7 +594,9 @@ body,html {
 }
 
 .dot.active {
-    background-color: #CC5500;
+  background-color: #CC5500;
+  height: 12px;
+  width: 12px;
 }
 /* end of section 3 */
 
