@@ -39,10 +39,12 @@ body,html {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   text-align: left;
+  color: #0F0D25;
 }
 
 /* margins */
-.m-0 {
+
+/* .m-0 {
   margin: 0;
 }
 
@@ -85,7 +87,7 @@ body,html {
 }
 
 /* text alignments*/
-.text-left {
+/* .text-left {
   text-align: left;
 }
 
@@ -116,9 +118,10 @@ body,html {
 
 .text-orange {
   color: orange;
-}
+} */
 /* typical flex classes*/
-.flex-d-row {
+
+/* .flex-d-row {
   display: flex;
   flex-direction: row;
 }
@@ -186,11 +189,11 @@ body,html {
 
 .w-100 {
   width: 100%;
-}
+}  */
 
 /* heights */
 
-
+/*
 .h-8 {
   height: 8%;
 }
@@ -225,7 +228,7 @@ body,html {
 
 .h-75 {
   height: 75%;
-}
+} */
 
 
 
@@ -250,35 +253,37 @@ body,html {
   top: 0;
   width: 100%;
   z-index: 1;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 nav > ul {
   display: flex;
   justify-content: flex-end;
-  margin: 0;
+  margin-right: 7rem;
   padding: 0;
   list-style: none;
-  gap: 16px;
+  gap: 4rem;
   background-color: transparent;
-  position: sticky;
-  top: 0;
   z-index: 1;
 }
 
 a {
   text-decoration: none;
+  color: #0F0D25;
+  font-weight: 700;
 }
 
-.nav > ul > li {
-  margin-right: 3%;
+.navbar > ul > li {
+  display: inline-block;
   list-style: none;
 }
 
-.nav> ul> li:last-child {
+.navbar > ul> li:last-child {
   margin-right: 0;
 }
 
-.nav > ul > li:hover {
+.navbar  > ul > li:hover {
   background-color: white;
   cursor: pointer;
 }
@@ -317,6 +322,7 @@ a {
     0px -4px 10px rgba(255,255,255,0.3);
   margin: 0;
   padding: 0;
+  color:#0F0D25;
 }
 
 #first-form {
