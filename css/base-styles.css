@@ -659,7 +659,7 @@ body,html {
 
 @media (max-width: 599px) and (orientation: portrait) {
   #section3-text-container > .heading {
-    font-size: var(--font-size-large);
+    font-size: var(--heading-size-small);
     text-align: center;
   }
   #breakfast-carousel {
@@ -854,6 +854,111 @@ body,html {
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0.75rem;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  #section4-top-half-threeThirds-times-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #section4-bottom-half {
+    width: 100%;
+  }
+
+  #video-img {
+    margin: 0;
+    width: 100%;
+  }
+
+  #video-img-and-play-icon-container {
+    width: 100%;
+  }
+
+  #video-container-w-arrow-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  #video-img {
+    margin: 0 2rem;
+    min-width: 300px;
+  }
+  .arrow-circle-icon {
+    width: 5vw;
+    height: 5vw;
+    display: none;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  #section4-top-half {
+    width: 80%;
+  }
+
+  #section4-top-half-threeThirds-times-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  #video-container-w-arrow-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  #video-img {
+    margin: 0 1rem;
+  }
+  .arrow-circle-icon {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  #section4-top-half {
+    width: 80%;
+  }
+  /* #section4-top-half-threeThirds-times-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  } */
+
+  #video-container-w-arrow-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  #video-img {
+    margin: 0 2rem;
+  }
+
+  .arrow-circle-icon {
+    width: 5vw;
+    height: 5vw;
+  }
 }
 /* end of section 4 */
 
