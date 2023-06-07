@@ -382,6 +382,9 @@ body,html {
   line-height: 1.5rem;
 }
 
+#section3-btn-link {
+  text-decoration: none;
+}
 
 #discover-menu-btn {
   display: flex;
