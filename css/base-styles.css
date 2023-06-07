@@ -629,7 +629,7 @@ body,html {
 
 /* section 4 */
 #section4 {
-  background-image: url(../assets/images/charlesdeluvio-image1.jpg);
+  background-image: url(../assets/images/background/nordwood-themes-section4-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -738,7 +738,7 @@ body,html {
 }
 
 #video-img {
-  background-image: url(../assets/images/brooke-lark-image2.jpg);
+  background-image: url(../assets/images/background/video-img-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
