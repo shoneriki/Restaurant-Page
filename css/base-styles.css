@@ -323,6 +323,8 @@ body,html {
   }
   #welcome-likes {
     width: var(--container-width-xsmall);
+    display: flex;
+    justify-content: center;
   }
   #first-form {
     width: var(--container-width-xsmall)
