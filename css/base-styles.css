@@ -1059,11 +1059,24 @@ footer {
   border-bottom: 1px solid gray;
 }
 
+
 .footer-section {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 1em;
+  width: 90%;
+}
+
+.footer-section:first-child {
+  font-size:.75em;
+  justify-content: start;
+}
+
+.footer-section > .heading {
+  display: inline-block;
+  flex-wrap: no-wrap;
 }
 
 #second-form{
@@ -1119,14 +1132,14 @@ ul li a {
   color: white;
 }
 
-
-
 .footer2-wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-
+.footer-section:last-child {
+  justify-content: start;
+}
 
 @media (max-width: 599px) and (orientation: portrait){
   .footer1-wrapper {
