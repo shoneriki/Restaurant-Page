@@ -952,7 +952,6 @@ body,html {
   background-color: #FFFFFF;
   width: 100%;
   min-height: 100vh;
-  height: 100vh;
   font-weight: 700;
   overflow: hidden;
 }
@@ -1074,6 +1073,10 @@ footer {
   justify-content: start;
 }
 
+.footer-section:nth-child(2) > p {
+  margin-bottom: 1rem;
+}
+
 .footer-section > .heading {
   display: inline-block;
   white-space: nowrap;
@@ -1146,7 +1149,8 @@ ul li a {
 .footer2-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  align-items: center;
+  margin-top: .5rem;
 }
 
 .footer-section:last-child {
