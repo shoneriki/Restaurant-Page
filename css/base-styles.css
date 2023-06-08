@@ -38,7 +38,7 @@
   --container-width-xsmall: 90%;
   --container-width-small: 100%;
   --container-width-medium: 80%;
-  --container-width-large: 50%;
+  --container-width-large: 40%;
   --section-padding: 2rem;
 }
 
@@ -335,10 +335,10 @@ body,html {
 
 /* section 2 */
 #section2 {
-  /* background-image: url(../assets/images/lily-banse-image1.jpg);
+  background-image: url(../assets/images/background/blended-section2-bg.png);
   background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: #FFFFFF;
+  background-size: cover;
+  /* background-color: #FFFFFF; */
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -346,7 +346,20 @@ body,html {
   align-items: center;
   justify-content: center;
 
+  position: relative;
 }
+
+#section2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent 0%, rgba(255,255,255,.5) 40%, rgba(255,255,255,1) 63%, transparent 100%);
+  z-index: 1;
+}
+
 
 #section2 > .inner-container {
   display: flex;
@@ -355,12 +368,15 @@ body,html {
   justify-content: center;
   height: 100%;
   margin: 3rem 0;
+
+  position: relative;
+  z-index: 2;
 }
 
 #section2-shift{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 #section2-text-container {
@@ -370,9 +386,12 @@ body,html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-right: 5rem;
-  overflow-y: auto;
+  margin-left: 10rem;
+  overflow: hidden;
+  z-index: 100;
+
 }
+
 
 #section2-text-container > .heading {
   font-size: var(--heading-size-large);
@@ -422,32 +441,6 @@ body,html {
   border-radius: 0 8px 8px 0;
 }
 
-/* @media (max-width: 375px) {
-  #discover-menu-btn {
-    width: 5rem;
-    font-size: var(--font-size-xsmall-btn);
-  }
-  #inner-btn {
-    width:20%;
-  }
-  #section2 > .inner-container {
-    margin: 0;
-    height: 100%;
-    width: var(--container-width-xsmall);
-  }
-
-  #section2-shift {
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  #section2-text-container > .heading {
-    font-size: var(--heading-size-xsmall);
-  }
-  #section2-text-container > p {
-    font-size: var(--font-size-xsmall);
-  }
-} */
 
 @media (max-width: 599px) and (orientation: portrait){
   #section2 > .inner-container {
@@ -512,15 +505,7 @@ body,html {
     font-size: var(--font-size-medium);
   }
 }
-/*
-@media (min-width: 992px) {
-  #section2-text-container > .heading {
-    font-size: var(--heading-size-large);
-  }
-  #section2-text-container > p {
-    font-size: var(--font-size-large);
-  }
-} */
+
 
 /* end of section 2 */
 
