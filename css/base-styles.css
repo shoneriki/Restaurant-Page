@@ -1084,14 +1084,26 @@ footer {
   width: 75%;
 }
 
-#second-form-input {
+#second-form-input-wrapper {
   position: relative;
+  display: flex;
+  align-items: center;
+  padding: .75rem;
+}
+
+#second-form-input {
+  flex-grow: 1;
+  border: none;
+  border-radius: .25rem;
+  padding: .5rem 1.5rem .5rem .5rem;
 }
 
 #send-search {
   position: absolute;
-  top: 0;
+  right: 0px;
+  cursor: pointer;
 }
+
 
 .footer-logo {
     width: 100px;
