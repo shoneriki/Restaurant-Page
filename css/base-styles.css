@@ -563,7 +563,7 @@ body,html {
 
 #section3-ul > .active {
   color: orange;
-  border-bottom: var(--border-orange);
+  border-bottom: 1px solid orange;
 }
 
 #section3-image-carousel {
@@ -576,7 +576,7 @@ body,html {
 #food-carousel {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 280px);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
   width: 100%;
 }
