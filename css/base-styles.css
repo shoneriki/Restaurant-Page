@@ -74,6 +74,7 @@ body,html {
   align-items: center;
   position: fixed;
   top: 0;
+  right: 2rem;
   width: 100%;
   z-index: 5;
 }
@@ -339,7 +340,7 @@ body,html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, transparent 0%, rgba(255,255,255,.5) 40%, rgba(255,255,255,1) 70%, transparent 80%);
+  background: linear-gradient(to right, transparent 0vw, rgba(255,255,255,.5) 40vw, rgba(255,255,255,1) 64vw, transparent 80vw);
   z-index: 1;
 }
 
@@ -466,6 +467,9 @@ body,html {
 @media (min-width: 600px) and (max-width: 900px) {
   #section2 > .inner-container {
     margin: 3rem 0;
+  }
+  #section2::before {
+
   }
   #section2-shift {
     align-items: center;
