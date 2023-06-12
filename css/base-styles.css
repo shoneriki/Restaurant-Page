@@ -1108,10 +1108,6 @@ footer {
   justify-content: start;
 }
 
-.footer-section:nth-child(2) > p {
-  margin-bottom: 1rem;
-}
-
 .footer-section > .heading {
   display: inline-block;
   white-space: nowrap;
