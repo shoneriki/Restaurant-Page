@@ -644,7 +644,7 @@ body,html {
 }
 
 
-#slider-pagination {
+.slider-pagination {
   margin-top: 2.5rem;
   display: flex;
   flex-direction: row;
@@ -655,7 +655,7 @@ body,html {
   color: #FFBF00;
 }
 
-#dot-container {
+.dot-container {
   width: 7rem;
   display: flex;
   flex-direction: row;
